@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_profile"
+        android:title="Profile"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/action_security"
+        android:title="security"
+        android:orderInCategory="200" />
+
+    <item android:id="@+id/action_disconnect"
+        android:title="Disconnect"
+        android:orderInCategory="200" />
+</menu>

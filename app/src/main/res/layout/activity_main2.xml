@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="50dp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/txtName"
+
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username : "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtUsername"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password : "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:inputType="textPassword"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirmation : "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/txtCpassword"
+                    android:inputType="textPassword"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="phone : "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:inputType="phone"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#992540"
+                android:text="Register"/>
+            <Button
+                android:id="@+id/btnLog"
+                android:layout_width="wrap_content"
+                android:textSize="12dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E64040"
+                android:text="already have an account ?"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>
